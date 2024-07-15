@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Session5APP.Views.AboutPage" Title="Seoul Stay - About Us">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Image Source="logo" WidthRequest="300"/>
+                <BoxView/>
+                <Label HorizontalOptions="Center" Text="Seoul Stay Addon Services" FontSize="25" FontAttributes="Bold"/>
+                <Label HorizontalOptions="Center"  Text="V.1.0" FontSize="25" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <Grid VerticalOptions="EndAndExpand" ColumnDefinitions="*, *, *" RowDefinitions="65">
+                <Frame BackgroundColor="Transparent"  BorderColor="Black" Margin="0, 0, -6, 0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" Text="Services"/>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" Grid.Column="1" BorderColor="Black" Margin="0, 0, -6, 0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" Text="Cart (0)"/>
+                </Frame>
+
+                <Frame BackgroundColor="LightBlue"  Grid.Column="2" BorderColor="Black">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" Text="About"/>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\serviceselectionpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\serviceselectionpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\serviceselectionpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\serviceselectionpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\addonservicemenupage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\addonservicemenupage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\addonservicemenupage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\addonservicemenupage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\services\\sampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\services\\sampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\shoppingcartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\shoppingcartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\shoppingcartpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\shoppingcartpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\views\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\views\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{31324FA7-570E-4403-AA6B-7E9A68474B22}|Session5APP\\Session5APP\\Session5APP.csproj|solutionrelative:session5app\\session5app\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27AE24C-57F4-4C62-B5F6-74045EB4B73E}|Session5APP\\Session5APP.Android\\Session5APP.Android.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5app\\session5app\\session5app.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27AE24C-57F4-4C62-B5F6-74045EB4B73E}|Session5APP\\Session5APP.Android\\Session5APP.Android.csproj|solutionrelative:session5app\\session5app.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceSelectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T02:54:25.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceSelectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml*",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\ServiceSelectionPage.xaml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T02:54:22.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SampleService.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Services\\SampleService.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Services\\SampleService.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Services\\SampleService.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Services\\SampleService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T02:37:33.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Models\\ServiceType.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Models\\ServiceType.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Models\\ServiceType.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Models\\ServiceType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T02:11:00.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AboutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AboutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\AboutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AboutPage.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\AboutPage.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T02:00:46.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:54:55.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AboutPage.xaml",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\AboutPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T01:54:42.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShoppingCartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\ShoppingCartPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T01:54:33.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddonServiceMenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEMAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:51:50.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddonServiceMenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Views\\AddonServiceMenuPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T01:38:13.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Models\\User.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:36:21.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\MainPage.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\MainPage.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:31:27.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\App.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\App.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\App.xaml",
+              "RelativeToolTip": "Session5APP\\Session5APP\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T01:30:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\MainPage.xaml",
+              "RelativeToolTip": "Session5APP\\Session5APP\\MainPage.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T01:25:34.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\App.xaml.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\App.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:24:26.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "APIService.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Services\\APIService.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP\\Services\\APIService.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP\\Services\\APIService.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP\\Services\\APIService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:21:55.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Session5APP\\Session5APP.Android\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5APP\\Session5APP\\Session5APP.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Session5APP\\Session5APP.Android\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:20:48.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

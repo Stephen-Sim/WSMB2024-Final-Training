@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\001-home.png" />
+    <None Remove="Images\005-newspaper.png" />
+    <None Remove="Images\016-camera.png" />
+    <None Remove="Images\018-music.png" />
+    <None Remove="Images\028-connection.png" />
+    <None Remove="Images\085-printer.png" />
+    <None Remove="Images\100-drive.png" />
+    <None Remove="Images\143-key2.png" />
+    <None Remove="Images\146-wrench.png" />
+    <None Remove="Images\164-spoon-knife.png" />
+    <None Remove="Images\176-airplane.png" />
+    <None Remove="Images\207-eye.png" />
+    <None Remove="Images\214-contrast.png" />
+    <None Remove="Images\274-checkmark2.png" />
+    <None Remove="Images\295-volume-high.png" />
+    <None Remove="Images\341-radio-checked.png" />
+    <None Remove="Images\347-scissors.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\001-home.png" />
+    <EmbeddedResource Include="Images\005-newspaper.png" />
+    <EmbeddedResource Include="Images\016-camera.png" />
+    <EmbeddedResource Include="Images\018-music.png" />
+    <EmbeddedResource Include="Images\028-connection.png" />
+    <EmbeddedResource Include="Images\085-printer.png" />
+    <EmbeddedResource Include="Images\100-drive.png" />
+    <EmbeddedResource Include="Images\143-key2.png" />
+    <EmbeddedResource Include="Images\146-wrench.png" />
+    <EmbeddedResource Include="Images\164-spoon-knife.png" />
+    <EmbeddedResource Include="Images\176-airplane.png" />
+    <EmbeddedResource Include="Images\207-eye.png" />
+    <EmbeddedResource Include="Images\214-contrast.png" />
+    <EmbeddedResource Include="Images\274-checkmark2.png" />
+    <EmbeddedResource Include="Images\295-volume-high.png" />
+    <EmbeddedResource Include="Images\341-radio-checked.png" />
+    <EmbeddedResource Include="Images\347-scissors.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AboutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AddonServiceMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ServiceSelectionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ShoppingCartPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

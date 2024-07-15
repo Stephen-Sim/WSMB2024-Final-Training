@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.Entity.Core.Mapping;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -52,7 +53,6 @@ namespace Session4
 
             comboBox6.DataSource = null;
             comboBox7.DataSource = null;
-
 
             var amens = ent.Amenities.ToList();
             comboBox5.DataSource = amens;

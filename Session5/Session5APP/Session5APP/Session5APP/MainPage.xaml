@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Session5APP.MainPage" Title="Seoul Stay Addon Services">
+
+    <StackLayout Margin="5" VerticalOptions="Center">
+        <Label Text="Enter username/password"/>
+        <Frame BorderColor="Black" HeightRequest="200" BackgroundColor="Transparent">
+            <Grid VerticalOptions="Center" ColumnDefinitions="100, *" RowDefinitions="50, 50, 50">
+                <Label Text="Username:"/>
+                <Label Grid.Row="1" Text="Password:"/>
+
+                <Entry x:Name="uEntry" Grid.Column="1"/>
+                <Entry x:Name="pEntry" IsPassword="True" Grid.Row="1" Grid.Column="1"/>
+
+                <Button Text="Login" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"/>
+            </Grid>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
