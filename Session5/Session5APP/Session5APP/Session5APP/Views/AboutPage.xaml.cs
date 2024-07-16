@@ -15,6 +15,7 @@ namespace Session5APP.Views
         public AboutPage()
         {
             InitializeComponent();
+            CartLabel.Text = $"Cart ({App.CartItems.Count})";
         }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)

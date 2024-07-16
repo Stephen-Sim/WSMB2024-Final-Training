@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|solutionrelative:session5api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5api\\session5api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5API\\session5api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|solutionrelative:session5api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|c:\\users\\simsh\\desktop\\wsmb 2024 final training\\session5\\session5api\\session5api\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5API\\session5api\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{1E3AF72B-AA17-4866-B1C5-ABE544373C79}|Session5API\\Session5API.csproj|solutionrelative:session5api\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Session5API\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5API\\Session5API\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Session5API\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAASwDsAAAAvAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwFUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T01:16:22.791Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Session5API\\App_Start\\WebApiConfig.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T01:15:17.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T01:15:17.994Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session5\\Session5API\\Session5API\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "Session5API\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-15T01:14:09.911Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-07-15T01:14:09.911Z"
             }
           ]
         }

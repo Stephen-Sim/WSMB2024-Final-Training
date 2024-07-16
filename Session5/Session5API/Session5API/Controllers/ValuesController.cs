@@ -34,7 +34,8 @@ namespace Session5API.Controllers
             return Ok(new
             {
                 ID = user.ID,
-                Name = user.FullName
+                Name = user.FullName,
+                user.FamilyCount
             });
         }
 
@@ -53,102 +54,41 @@ namespace Session5API.Controllers
         }
 
         [HttpGet]
-        public object IsAvailable(long id)
+        public object GetServices(long ID)
         {
-            var service = ent.Services.First(x => x.ID == id);
-
-            var date = new DateTime(2024, 7, 20);
-
-            var nums = new List<int>();
-
-            if (!string.IsNullOrWhiteSpace(service.DayOfMonth))
+            var services = ent.Services.ToList().Where(x => x.ServiceTypeID == ID).Select(x => new
             {
-                // day of month
-                // * 
-                if (service.DayOfMonth == "*")
-                {
-                    for (int i = 1; i <= 31; i++) { 
-                        nums.Add(i);
-                    }
-                }
-                else
-                {
-                    // split ,
-                    // 1,2,3,4-6
-                    var strs = service.DayOfMonth.Split(',');
-                    // 1
-                    // 2
-                    // 3
-                    // 44-66
+                x.ID,
+                x.Name,
+                x.Description,
+                x.Price,
+                x.ServiceType.IconName,
+                x.DailyCap,
+                x.BookingCap,
+                x.DayOfMonth,
+                x.DayOfWeek,
+                x.Duration,
 
-                    foreach (var str in strs)
+                Display = $"{x.Name} ({x.Duration} days) ${x.Price}"
+            });
+
+            return Ok(services); 
+        }
+
+        [HttpGet]
+        public object GetRemainingSpot(long ID, DateTime dateTime)
+        {
+            var count = ent.Services.First(x => x.ID == x.ID).DailyCap -
+                ent.AddonServiceDetails.ToList().Where(x => x.ServiceID == ID && x.FromDate == dateTime.Date).Select(x => new
+                {
+                    Count = new Func<long>(() =>
                     {
-                        if (str.Contains('-'))
-                        {
-                            var days = str.Split('-');
-                            for (int j = int.Parse(days[0]); j <= int.Parse(days[1]); j++)
-                            {
-                                nums.Add(j);
-                            }
-                        }
-                        else
-                        {
-                            nums.Add(int.Parse(str));
-                        }
-                    }
-                }
+                        return x.NumberOfPeople / x.Service.BookingCap +
+                         (x.NumberOfPeople % x.Service.BookingCap != 0 ? 1 : 0);
+                    })()
+                }).Sum(x => x.Count);
 
-                return Ok(nums.Any(x => x == date.Day));
-            }
-            else
-            {
-                // * 
-                if (service.DayOfMonth == "*")
-                {
-                    for (int i = 1; i <= 7; i++)
-                    {
-                        nums.Add(i);
-                    }
-                }
-                else
-                {
-                    // split ,
-                    // 1,2,3,4-6
-                    var strs = service.DayOfWeek.Split(',');
-                    // 1
-                    // 2
-                    // 3
-                    // 4-6
-
-                    foreach (var str in strs)
-                    {
-                        if (str.Contains('-'))
-                        {
-                            var days = str.Split('-');
-                            for (int j = int.Parse(days[0]); j <= int.Parse(days[1]); j++)
-                            {
-                                nums.Add(j);
-                            }
-                        }
-                        else
-                        {
-                            nums.Add(int.Parse(str));
-                        }
-                    }
-                }
-
-                // 7 in nums then, remove and 0
-
-                if (nums.Any(x => x == 7))
-                {
-                    nums.Remove(7);
-                    nums.Add(0);
-                }
-
-                return Ok(nums.Any(x => x == (int)date.DayOfWeek));
-            }
-
-            return Ok(nums);
+            return Ok(count);
         }
     }
 }

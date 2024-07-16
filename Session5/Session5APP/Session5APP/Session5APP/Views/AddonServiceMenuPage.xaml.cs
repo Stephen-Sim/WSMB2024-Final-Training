@@ -22,6 +22,8 @@ namespace Session5APP.Views
         {
             InitializeComponent();
 
+            CartLabel.Text = $"Cart ({App.CartItems.Count})";
+
             User = App.User;
 
             ulabel.Text = $"Welcome {User.Name}";

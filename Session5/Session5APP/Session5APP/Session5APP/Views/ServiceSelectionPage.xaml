@@ -1,12 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:Session5APP.Models"
              x:Class="Session5APP.Views.ServiceSelectionPage" NavigationPage.HasBackButton="False">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Margin="5">
+                         
+                <Label x:Name="stDescLabel"/>
+
+                <Frame Padding="5" HeightRequest="200" BorderColor="Black" BackgroundColor="Transparent">
+                    <ListView x:Name="lv" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Service">
+                                <ViewCell>
+                                <Grid ColumnDefinitions="60, *" RowDefinitions="60">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                                </Grid.GestureRecognizers>
+                                <Image Source="{Binding IconImage}" HorizontalOptions="Center" WidthRequest="50" HeightRequest="50"/>
+                                <Label Text="{Binding Display}" Grid.Column="1" FontAttributes="Bold" FontSize="15"/>
+                                </Grid>
+                            </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Frame>
+                
+                <StackLayout x:Name="cartFormStacklayout">
+                    <Label x:Name="sNameLabel"/>
+                    <Label x:Name="sDescLabel"/>
+
+                    <Grid ColumnDefinitions="*, 2*, 3*">
+                        <Label Text="Date:"/>
+                        <DatePicker DateSelected="selectedDatePicker_DateSelected" Grid.Column="1" x:Name="selectedDatePicker"/>
+                        <Label x:Name="spotLabel" Grid.Column="2"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="1.5*, *, 2*">
+                        <Label Text="Number of people: "/>
+                        <Entry TextChanged="nopEntry_TextChanged" x:Name="nopEntry" Keyboard="Numeric" Grid.Column="1"/>
+                        <Label x:Name="bookingCapLabel" Grid.Column="2"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="120, *">
+                        <Label Text="Additional notes:"/>
+                        <Entry x:Name="additionalNoteEntry" Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="10, *, 0.7*">
+                        <Label x:Name="PriceLabel" Grid.Column="1" HorizontalOptions="End"/>
+                        <Button Grid.Column="2" Text="Add to Cart" Clicked="Button_Clicked"/>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+
+            <Grid VerticalOptions="EndAndExpand" ColumnDefinitions="*, *, *" RowDefinitions="65">
+                <Frame BackgroundColor="LightBlue"  BorderColor="Black" Margin="0, 0, -6, 0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" Text="Services"/>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" Grid.Column="1" BorderColor="Black" Margin="0, 0, -6, 0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" x:Name="CartLabel"/>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent"  Grid.Column="2" BorderColor="Black">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                    </Frame.GestureRecognizers>
+                    <Label HorizontalOptions="Center" Text="About"/>
+                </Frame>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

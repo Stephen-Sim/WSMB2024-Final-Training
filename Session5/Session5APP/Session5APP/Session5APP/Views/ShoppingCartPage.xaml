@@ -20,7 +20,7 @@
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
                     </Frame.GestureRecognizers>
-                    <Label HorizontalOptions="Center" Text="Cart (0)"/>
+                    <Label HorizontalOptions="Center" x:Name="CartLabel"/>
                 </Frame>
 
                 <Frame BackgroundColor="Transparent"  Grid.Column="2" BorderColor="Black">

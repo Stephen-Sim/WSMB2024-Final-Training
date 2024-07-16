@@ -41,5 +41,22 @@ namespace Session5APP.Services
             var res = await client.GetStringAsync(url);
             return JsonConvert.DeserializeObject<List<ServiceType>>(res);
         }
+
+        public async Task<List<Service>> GetServices(long ID)
+        {
+            var url = this.URL + $"GetServices?ID={ID}";
+            var res = await client.GetStringAsync(url);
+            return JsonConvert.DeserializeObject<List<Service>>(res);
+        }
+
+        public async Task<int> GetRemainingSpot(long ID, DateTime dateTime)
+        {
+            var url = this.URL + $"GetRemainingSpot?ID={ID}&dateTime={dateTime}";
+            var res = await client.GetStringAsync(url);
+            return JsonConvert.DeserializeObject<int>(res);
+        }
+
+        
     }
 }
+
