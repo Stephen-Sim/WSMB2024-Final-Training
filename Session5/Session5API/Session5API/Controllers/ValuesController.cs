@@ -90,5 +90,69 @@ namespace Session5API.Controllers
 
             return Ok(count);
         }
+
+        [HttpGet]
+        public object GetCoupons()
+        {
+            var c = ent.Coupons.ToList().Select(x => new {
+                x.ID,
+                x.CouponCode,
+                x.DiscountPercent,
+                x.MaximimDiscountAmount
+            });
+
+            return Ok(c);
+        }
+
+        [HttpPost]
+        public object StoreAddonService(AddonServiceStoreRequest addonRequest)
+        {
+            var addonservice = new AddonService()
+            {
+                CouponID = addonRequest.CouponID,
+                GUID = Guid.NewGuid(),
+                UserID = addonRequest.UserID,
+            };
+
+            ent.AddonServices.Add(addonservice);
+
+            foreach (var item in addonRequest.Items)
+            {
+                var detail = new AddonServiceDetail()
+                {
+                    AddonServiceID = addonservice.ID,
+                    GUID = Guid.NewGuid(),
+                    FromDate = item.FromDate,
+                    Notes = item.Note,
+                    Price = item.Price,
+                    NumberOfPeople = item.NOP,
+                    ServiceID = item.ServiceID,
+                    isRefund = false
+                };
+
+                ent.AddonServiceDetails.Add(detail);
+            }
+
+            ent.SaveChanges();
+
+            return Ok();
+        }
+
+        public class AddonServiceStoreRequest
+        {
+            public long UserID { get; set; }
+            public long? CouponID { get; set; }
+
+            public List<AddonServiceDetailStoreRequest> Items { get; set; } = new List<AddonServiceDetailStoreRequest>();
+        }
+
+        public class AddonServiceDetailStoreRequest
+        {
+            public long ServiceID { get; set; }
+            public DateTime FromDate { get; set; }
+            public decimal Price { get; set; }
+            public string Note { get; set; }
+            public int NOP { get; set; }
+        }
     }
 }

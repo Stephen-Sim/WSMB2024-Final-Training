@@ -197,7 +197,7 @@ namespace Session5APP.Views
             else
             {
                 // * 
-                if (service.DayOfMonth == "*")
+                if (service.DayOfWeek == "*")
                 {
                     for (int i = 1; i <= 7; i++)
                     {
@@ -267,7 +267,7 @@ namespace Session5APP.Views
             {
                 // display
                 DisplayFromDate = $"From: {selectedDatePicker.Date.ToString("dd/MM/yyyy")} To: {selectedDatePicker.Date.AddDays(SelectedService.Duration).ToString("dd/MM/yyyy")}",
-                DisplayName = this.SelectedService.Name,
+                DisplayName = this.SelectedService.Name + $" ${price.ToString("0.00")}",
                 DisplayNOP = $"Number of People: {int.Parse(nopEntry.Text)}",
                 Icon = SelectedService.IconImage,
 
@@ -275,6 +275,7 @@ namespace Session5APP.Views
                 ServiceID = this.SelectedService.ID,   
                 NOP = int.Parse(nopEntry.Text),
                 Note = additionalNoteEntry.Text,
+                FromDate = selectedDatePicker.Date,
                 Price = price,
             };
 

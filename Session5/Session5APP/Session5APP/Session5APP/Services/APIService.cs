@@ -1,8 +1,10 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Session5APP.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -56,7 +58,29 @@ namespace Session5APP.Services
             return JsonConvert.DeserializeObject<int>(res);
         }
 
-        
+        public async Task<List<Coupon>> GetCoupons()
+        {
+            var url = this.URL + $"GetCoupons";
+            var res = await client.GetStringAsync(url);
+            return JsonConvert.DeserializeObject<List<Coupon>>(res);
+        }
+
+        public async Task<bool> StoreAddonService(AddonServiceStoreRequest addonRequest)
+        {
+            var url = this.URL + $"StoreAddonService";
+
+            var json = JsonConvert.SerializeObject(addonRequest);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var res = await client.PostAsync(url, content);
+
+            if (res.IsSuccessStatusCode)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
 

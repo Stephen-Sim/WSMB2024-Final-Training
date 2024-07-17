@@ -35,9 +35,9 @@ namespace Session5APP.Views
 
         async void loadServiceTypesAsync()
         {
-            var res = await APIService.GetServiceTypes();
+            // var res = await APIService.GetServiceTypes();
 
-            // var res = await SampleService<List<ServiceType>>.Get($"Getservicetypes");
+            var res = await SampleService<List<ServiceType>>.Get($"GetServiceTypes");
 
             res.ForEach(x =>
             {

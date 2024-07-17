@@ -1,12 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:Session5APP.Models"
              x:Class="Session5APP.Views.ShoppingCartPage" Title="Seoul Stay - Cart Checkout">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Margin="5">
+                <Frame Padding="10" BorderColor="Black" BackgroundColor="Transparent" HeightRequest="300">
+                    <ListView x:Name="lv" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:CartItem">
+                                <ViewCell>
+                                    <Grid ColumnDefinitions="50, *, 50">
+                                        <Image Source="{Binding Icon}"/>
+                                        <StackLayout Grid.Column="1">
+                                            <Label Text="{Binding DisplayName}"/>
+                                            <Label Text="{Binding DisplayFromDate}"/>
+                                            <Label Text="{Binding DisplayNOP}"/>
+                                        </StackLayout>
+                                        <Button Clicked="Button_Clicked" CommandParameter="{Binding .}" BackgroundColor="Transparent" Text="🗑️" Grid.Column="2"/>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Frame>
+
+                <Grid ColumnDefinitions="*, *, 100" RowDefinitions="50, 50">
+                    <Label Text="Enter coupon code:"/>
+                    <Entry Grid.Column="1" x:Name="couponEntry"/>
+                    <Button Text="submit" Grid.Column="2" Clicked="Button_Clicked_1"/>
+
+                    <Label Text="Coupon successfuly Applied" Grid.Column="1" 
+                           Grid.ColumnSpan="2" Grid.Row="1" x:Name="isCouponAppliedLabel"/>
+                </Grid>
+                <Label Text="" x:Name="TotalPriceLabel"/>
+                <Button Text="Proceed to checkout" HorizontalOptions="End" Clicked="Button_Clicked_2"/>
+            </StackLayout>
 
             <Grid VerticalOptions="EndAndExpand" ColumnDefinitions="*, *, *" RowDefinitions="65">
                 <Frame BackgroundColor="Transparent"  BorderColor="Black" Margin="0, 0, -6, 0">
