@@ -14,3 +14,19 @@ C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session4\Session4\obj\Debug\Sess
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session4\Session4\obj\Debug\Session4.exe
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session4\Session4\obj\Debug\Session4.pdb
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session4\Session4\obj\Debug\Session4.AdvancedSearchForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\Session4.exe.config
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\Session4.exe
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\Session4.pdb
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\EntityFramework.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\EntityFramework.xml
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.AdvancedSearchForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.Form1.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.Properties.Resources.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.csproj.Up2Date
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.exe
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session4\Session4\obj\Debug\Session4.pdb

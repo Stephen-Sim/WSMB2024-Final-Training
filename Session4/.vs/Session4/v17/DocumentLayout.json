@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WSMB 2024 Final Training\\Session4\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Session4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD25E2C4-D666-4AB9-9B1F-BD0BDEAB55E2}|Sessio4Test\\Sessio4Test.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\session4\\sessio4test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD25E2C4-D666-4AB9-9B1F-BD0BDEAB55E2}|Sessio4Test\\Sessio4Test.csproj|solutionrelative:sessio4test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Session4\\Sessio4Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Sessio4Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Session4\\Sessio4Test\\UnitTest1.cs",
+              "RelativeToolTip": "Sessio4Test\\UnitTest1.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T01:57:00.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

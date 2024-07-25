@@ -17,3 +17,22 @@ C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session1\Session1\obj\Debug\Sess
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session1\Session1\obj\Debug\Session1.pdb
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session1\Session1\obj\Debug\Session1.CreateAccountForm.resources
 C:\Users\simsh\Desktop\WSMB 2024 Final Training\Session1\Session1\obj\Debug\Session1.AddOrEditListingForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.AddOrEditListingForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.CreateAccountForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.EmployeeManagmentForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.Form1.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.Properties.Resources.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.UserManagmentForm.resources
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.exe
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.pdb
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\Session1.exe.config
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\Session1.exe
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\Session1.pdb
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\EntityFramework.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\EntityFramework.xml
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Session1\Session1\obj\Debug\Session1.csproj.Up2Date

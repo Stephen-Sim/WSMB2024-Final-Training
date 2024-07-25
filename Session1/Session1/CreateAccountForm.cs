@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Session1.Actions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,7 +57,10 @@ namespace Session1
                 return;
             }
 
-            if (ent.Users.Any(x => x.Username == textBox1.Text))
+            // proper way
+            var createUserAction = new CreateUserAction();
+
+            if (createUserAction.CheckIsUsernameTaken(textBox1.Text))
             {
                 MessageBox.Show("The username is already register in the system.");
                 return;
@@ -74,14 +78,20 @@ namespace Session1
                 GUID = Guid.NewGuid(),
             };
 
-            ent.Users.Add(user);
-            ent.SaveChanges();
+            var isUserAdded = createUserAction.CreateUser(user);
 
-            MessageBox.Show("User account is created.");
+            if (isUserAdded)
+            {
+                MessageBox.Show("User account is created.");
 
-            this.Hide();
+                this.Hide();
 
-            new UserManagmentForm(user.ID).ShowDialog();
+                new UserManagmentForm(user.ID).ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("User is failed to add.");
+            }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

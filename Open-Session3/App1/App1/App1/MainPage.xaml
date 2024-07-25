@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:App1.Models"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Grid ColumnDefinitions="*, 1.5*, *" RowDefinitions="50, 50">
+            <Label Text="Filter results by:"/>
+            <Picker Grid.Column="1" SelectedIndexChanged="Picker_SelectedIndexChanged"/>
+
+            <Label Grid.Row="1"  Text="Serach For:"/>
+            <Picker x:Name="typePicker" Grid.Row="1" Grid.Column="1" SelectedIndexChanged="Picker_SelectedIndexChanged"/>
+
+            <StackLayout  Grid.Row="1" Grid.Column="2" Orientation="Horizontal">
+                <CheckBox x:Name="isExpertCheckbox" CheckedChanged="isExpertCheckbox_CheckedChanged"/>
+                <Label Text="Expert only"/>
+            </StackLayout>
+        </Grid>
+
+        <Label x:Name="urlLabel" Text="" TextColor="Blue"/>
+
+        <ListView x:Name="lv" HasUnevenRows="True">
+            <ListView.Header>
+                <Grid BackgroundColor="Black" ColumnDefinitions="1.2*, 0.7*, *, 0.5*, 1.5*" RowDefinitions="50">
+                    <Label BackgroundColor="White" Margin="1, 1, -5, 1" Text="Name"/>
+                    <Label BackgroundColor="White" Margin="1, 1, -5, 1" Grid.Column="1" Text="Attempt"/>
+                    <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="2" Text="Completion"/>
+                    <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="3" Text="Grade"/>
+                    <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="4" Text="Pulished Status"/>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Attempt">
+                    <ViewCell>
+                        <Grid BackgroundColor="Black" ColumnDefinitions="1.2*, 0.7*, *, 0.5*, 1.5*" RowDefinitions="50">
+                            <Label BackgroundColor="White" Margin="1, 1, -5, 1" Text="{Binding username}"/>
+                            <Label BackgroundColor="White" Margin="1, 1, -5, 1" Grid.Column="1" Text="{Binding attempt}"/>
+                            <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="2" Text="{Binding completion}"/>
+                            <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="3" Text="{Binding grade}"/>
+                            <Label BackgroundColor="White" Margin="1, 1, -5, 1"  Grid.Column="4" Text="{Binding datetime}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

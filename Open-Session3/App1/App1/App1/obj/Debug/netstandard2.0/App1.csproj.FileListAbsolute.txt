@@ -1,0 +1,16 @@
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.sourcelink.json
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\refint\App1.dll
+C:\Users\simsh\Desktop\WSMB2024-Final-Training\Open-Session3\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb

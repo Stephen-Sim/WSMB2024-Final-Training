@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\open-session4\\open-session4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|solutionrelative:open-session4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\open-session4\\open-session4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|solutionrelative:open-session4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\open-session4\\open-session4\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|solutionrelative:open-session4\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\open-session4\\open-session4\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|solutionrelative:open-session4\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|c:\\users\\simsh\\desktop\\wsmb2024-final-training\\open-session4\\open-session4\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537FE989-5D4A-4435-A12B-485C90885B43}|Open-Session4\\Open-Session4.csproj|solutionrelative:open-session4\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Playoff8Usercontrol.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "RelativeDocumentMoniker": "Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\UserControls\\Playoff8Usercontrol.cs [Design]",
+              "RelativeToolTip": "Open-Session4\\UserControls\\Playoff8Usercontrol.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:51:41.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Form1.cs",
+              "RelativeDocumentMoniker": "Open-Session4\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Form1.cs [Design]",
+              "RelativeToolTip": "Open-Session4\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:33:41.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Form1.cs",
+              "RelativeDocumentMoniker": "Open-Session4\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Form1.cs",
+              "RelativeToolTip": "Open-Session4\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:38:50.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Playoff8Usercontrol.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "RelativeDocumentMoniker": "Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "RelativeToolTip": "Open-Session4\\UserControls\\Playoff8Usercontrol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:54:49.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Open-Session4\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WSMB2024-Final-Training\\Open-Session4\\Open-Session4\\Models\\Team.cs",
+              "RelativeToolTip": "Open-Session4\\Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:39:15.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
